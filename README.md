@@ -4,11 +4,9 @@
 
 In this project, I analyzed local and global temperature data and compared the temperature trends from my hometown of Houston to overall global temperature trends.
 
-Out of curiosity, I also cross referenced the available city data with the cities I've visited for work or vacation.
-
 ## Extract the data
 
-From the Udacity PostgreSQL workspace, I wrote the following query to extract global temperature data from all the cities I have visited.
+From the Udacity PostgreSQL workspace, I wrote the following query to extract global temperature data from my hometown of Houston.
 
 ```
 SELECT
@@ -22,17 +20,12 @@ FROM
     JOIN city_data cd ON gd.year = cd.year
     JOIN city_list cl ON cl.city = cd.city
 WHERE
-    cl.city IN ('Amsterdam', 'Arlington', 'Austin', 'Bangkok', 'Bern', 'Boston',
-                'Budapest', 'Chicago', 'Dallas', 'Denver', 'Fort Worth',
-                'Helsinki', 'Ho Chi Minh City', 'Houston', 'London',
-                'Long Beach', 'Los Angeles', 'Miami', 'Milan', 'Montreal',
-                'New Orleans', 'New York', 'Oklahoma City', 'Oslo', 'Paris',
-                'Philadelphia', 'Phoenix', 'Rome', 'Sacramento', 'San Antonio',
-                'San Diego', 'San Francisco', 'Seattle', 'Seoul', 'Shanghai',
-                'Singapore', 'Stockholm', 'Taipei', 'Tokyo', 'Tulsa', 'Vienna');
+    cl.city = 'Houston';
 ```
 
-## Contributing
+## Visualize the data
+
+I used Excel to create a scatter plot of the average global temperatures vs the average Houston weather over time.  I calculated the moving average by looking at the previous 7 years using the following formula:
 
 ## License
 
