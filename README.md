@@ -29,7 +29,9 @@ I used Excel to help visualize the data set.  I calculated the moving average by
 
 ![](https://github.com/lejimmy/explore_weather_trends/blob/master/img/moving_average_formula.png?raw=true)
 
-I created a line graph with the global moving averages and plotted the individual data points underneath.
+I displayed the yearly data as points in the following graph.  Afterwards, I created a line graph with the moving average data.  Excel also has a built in function to create a trend-line for the data as well as calculating the coefficient of determination or R<sup>2</sup> value.
+
+![](https://github.com/lejimmy/explore_weather_trends/blob/master/img/houston_trend.png?raw=true)
 
 ## Tourism data
 
