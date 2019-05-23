@@ -25,11 +25,20 @@ WHERE
 
 ## Visualize the data
 
-I used Excel to create a scatter plot of the average global temperatures vs the average Houston weather over time.  I calculated the moving average by looking at the previous 7 years using the following formula:
+I used Excel to help visualize the data set.  I calculated the moving average by looking at the previous 7 years using the following formula:
 
 ![](https://github.com/lejimmy/explore_weather_trends/blob/master/img/moving_average_formula.png?raw=true)
 
+I created a line graph with the global moving averages and plotted the individual data points underneath.
+
+## Tourism data
+
+![Pivot Table](https://media.giphy.com/media/d9YvttQsHqVCmNAvzM/giphy.gif)
+
+
 ## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/lejimmy/explore_weather_trends/blob/master/README.md) file for details.
 
 ## Notes
 
